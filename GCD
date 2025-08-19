@@ -1,7 +1,7 @@
-a=5
-for i in range(3,6):
-    for j in range(6,9):
-        a=a+2
-    a=a-3
-    print(a)
+a=int(input("enter num1:"))
+b=int(input("enter num2:"))
+while(b!=0):
+    rem=a%b
+    a=b
+    b=rem
 print(a)
