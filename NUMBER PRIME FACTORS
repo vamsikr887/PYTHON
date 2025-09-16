@@ -1,0 +1,11 @@
+def result(n,i):
+    if(n==1):
+        return
+    while(n%i!=0):
+        i=i+1
+    print(i,end=" ")
+    result(n//i,i)            
+
+n=int(input("enter the number:"))
+i=2
+result(n,i)
