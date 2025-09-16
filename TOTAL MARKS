@@ -1,0 +1,4 @@
+student=[{"Rahul":[30,43,55]},{"Vira":[33,45,42]},{"Ravi":[44,54,43]}]
+for i in student:
+    for name,total in i.items():
+        print(name,sum(total))
